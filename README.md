@@ -1,5 +1,3 @@
-##### .README #####
-
 # À PROPOS.
 Le serveur "Alzhe Corporation: RP" a été créé dans le but de faire un serveur dit "roleplay" que ce soit de manière écrite ou vocale.
 • Aucune aide ne sera fournie quant à l'instalation du serveur.
