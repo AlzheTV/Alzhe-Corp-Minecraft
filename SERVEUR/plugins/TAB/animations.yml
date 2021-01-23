@@ -1,0 +1,32 @@
+#usage: %animation:NAME%
+animations:
+  ping-tps:
+    change-interval: 5000
+    texts:
+      - "&3Ping : &b%ping% &3ms"
+      - "&3TPS: &b%tps%"
+  acorp:
+    change-interval: 100
+    texts:
+      - "&3▶ &fA&b&llzhe Corporation &3◀"
+      - "&3▶ &b&lA&fl&b&lzhe Corporation &3◀"
+      - "&3▶ &b&lAl&fz&b&lhe Corporation &3◀"
+      - "&3▶ &b&lAlz&fh&b&le Corporation &3◀"
+      - "&3▶ &b&lAlzh&fe&b&l Corporation &3◀"
+      - "&3▶ &b&lAlzhe &fC&b&lorporation &3◀"
+      - "&3▶ &b&lAlzhe C&fo&b&lrporation &3◀"
+      - "&3▶ &b&lAlzhe Co&fr&b&lporation &3◀"
+      - "&3▶ &b&lAlzhe Cor&fp&b&loration &3◀"
+      - "&3▶ &b&lAlzhe Corp&fo&b&lration &3◀"
+      - "&3▶ &b&lAlzhe Corpo&fr&b&lation &3◀"
+      - "&3▶ &b&lAlzhe Corpor&fa&b&ltion &3◀"
+      - "&3▶ &b&lAlzhe Corpora&ft&b&lion &3◀"
+      - "&3▶ &b&lAlzhe Corporat&fi&b&lon &3◀"
+      - "&3▶ &b&lAlzhe Corporati&fo&b&ln &3◀"
+      - "&3▶ &b&lAlzhe Corporatio&fn&b&l &3◀"
+  hrp:
+    change-interval: 4000
+    texts:
+      - "&3▶ &fHRP: &c&l!&fmessage &3◀"
+      - "&3▶ &fRadio: &c&l?&fmessage &3◀"
+      - "&3▶ &fSupport: &c&l/ac &fmessage &3◀"

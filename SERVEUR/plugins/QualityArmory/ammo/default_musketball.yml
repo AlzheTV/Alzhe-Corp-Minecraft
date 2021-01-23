@@ -1,0 +1,14 @@
+invalid: false
+name: musketball
+displayname: '&fMusket Ball'
+lore: []
+id: 51
+craftingRequirements:
+- IRON_INGOT,0,4
+- SULPHUR,0,3
+craftingReturnAmount: 8
+price: 1
+maxAmount: 32
+material: DIAMOND_AXE
+piercingSeverity: 0.7
+lastModifiedByQA: 1592157034359

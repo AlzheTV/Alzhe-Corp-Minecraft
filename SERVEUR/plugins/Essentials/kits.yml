@@ -1,0 +1,5 @@
+kits:
+  book:
+    delay: -1
+    items:
+      - writtenbook 1 title:&f&lAlzhe_Corporation author:Alzhe lore:&7Informations_pour|&7les_nouveaux_joueurs. book:infos

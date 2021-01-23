@@ -1,0 +1,15 @@
+invalid: false
+name: 40mm
+displayname: '&f40x46mm'
+lore: []
+id: 99
+craftingRequirements:
+- IRON_INGOT,0,1
+- SULPHUR,0,1
+- REDSTONE,0,1
+craftingReturnAmount: 1
+price: 30
+maxAmount: 10
+material: DIAMOND_AXE
+piercingSeverity: 10.0
+lastModifiedByQA: 1592157034360

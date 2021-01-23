@@ -1,0 +1,15 @@
+invalid: false
+name: 50bmg
+displayname: '&f.50BMG'
+lore: []
+id: 90
+craftingRequirements:
+- IRON_INGOT,0,1
+- SULPHUR,0,1
+- REDSTONE,0,1
+craftingReturnAmount: 1
+price: 10
+maxAmount: 30
+material: DIAMOND_AXE
+piercingSeverity: 3.0
+lastModifiedByQA: 1592157034360

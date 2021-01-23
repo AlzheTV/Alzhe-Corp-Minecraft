@@ -1,0 +1,136 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Civil:
+    default: true
+    permissions:
+    - -minecraft.command.help
+    - -minecraft.command.me
+    - -minecraft.command.tell
+    - -minecraft.command.msg
+    - -bukkit.command.version
+    - -bukkit.command.plugins
+    - -bukkit.command.help
+    - -skinsrestorer.command
+    - -skinsrestorer.command.set
+    - -essentials.back
+    - -essentials.mail
+    - -essentials.chat.color
+    - -essentials.chat.format
+    - -essentials.chat.magic
+    - -essentials.chat.url
+    - automessage.receive.am
+    - chestcommands.open.genre.yml
+    - chestcommands.open.menu.yml
+    - essentials.afk
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.balancetop.force
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.customtext
+    - essentials.enderchest
+    - essentials.gc
+    - essentials.geoip.show
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.keepinv
+    - essentials.keepxp
+    - essentials.me
+    - essentials.rules
+    - essentials.silentjoin
+    - essentials.silentquit
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.tpaccept
+    - essentials.warp
+    - simplesit.lay
+    - simplesit.sit
+    - skinsrestorer.command
+    inheritance: []
+    info:
+      build: false
+      prefix: ''
+      suffix: ''
+  Architecte:
+    default: false
+    permissions:
+    - '*'
+    - essentials.chat.spy
+    - fawe.admin
+    - fawe.bypass
+    inheritance: []
+    info:
+      build: false
+      prefix: ''
+      suffix: ''
+  Spectateurs:
+    default: false
+    permissions:
+    - -*
+    inheritance: []
+    info:
+      build: false
+      prefix: ''
+      suffix: ''
+  Président:
+    default: false
+    permissions:
+    - '*'
+    - essentials.chat.spy
+    inheritance: []
+    info:
+      build: false
+      prefix: ''
+      suffix: ''
+  VIP:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      build: false
+      prefix: ''
+      suffix: ''
+  Scientifique:
+    default: false
+    permissions:
+    - -essentials.kick.exempt
+    - -essentials.tempban.exempt
+    - -essentials.mute.exempt
+    - -essentials.gamemode.all
+    - -essentials.gamemode.others
+    - chestcommands.open.menu.yml
+    - essentials.broadcast
+    - essentials.chat.spy
+    - essentials.feed
+    - essentials.feed.others
+    - essentials.gamemode
+    - essentials.gamemode.adventure
+    - essentials.gamemode.spectator
+    - essentials.heal
+    - essentials.heal.others
+    - essentials.kick
+    - essentials.mute
+    - essentials.mute.offline
+    - essentials.tempban
+    - essentials.tempban.offline
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tp.position
+    - essentials.tphere
+    - essentials.tpoffline
+    inheritance:
+    - civil
+    info:
+      build: false
+      prefix: ''
+      suffix: ''

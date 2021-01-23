@@ -1,0 +1,75 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&3Choix du genre'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'genre'
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-actions:
+  - 'tell: &7*Vous devez faire un choix.*'
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+jouer:
+  MATERIAL: 351
+  DURABILITY: 12
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: '&f&l➢ &bGenre masculin !'
+  LORE:
+    - ''
+    - '&7Votre personnage sera masculin.'
+  ENCHANTMENTS:
+    - durability, 1
+  ACTIONS:
+    - 'marry gender male'
+
+info:
+  MATERIAL: SIGN
+  POSITION-X: 5
+  POSITION-Y: 1
+  NAME: '&fATTENTION !'
+  LORE:
+    - ''
+    - '&fCe choix est définitif !'
+    - '&fAlors, choisissez bien.'
+  ENCHANTMENTS:
+    - durability, 1
+  KEEP-OPEN: true
+
+
+visiter:
+  MATERIAL: 351
+  DURABILITY: 9
+  POSITION-X: 7
+  POSITION-Y: 1
+  NAME: '&f&l➢ &dGenre féminin !'
+  LORE:
+    - ''
+    - '&7Votre personnage sera féminin.'
+  ENCHANTMENTS:
+    - durability, 1
+  ACTIONS:
+    - 'marry gender female'

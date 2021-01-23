@@ -1,0 +1,13 @@
+invalid: false
+name: skimask
+displayname: '&6Ski Mask'
+lore: []
+id: 60
+craftingRequirements:
+- WOOL,0,8
+price: 50
+MiscType: HELMET
+minProtectionHeight: 1.0
+maxProtectionHeight: 0.0
+stopsHeadshots: false
+lastModifiedByQA: 1592157034668

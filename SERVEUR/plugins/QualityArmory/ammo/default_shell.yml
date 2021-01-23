@@ -1,0 +1,15 @@
+invalid: false
+name: shell
+displayname: '&fBuckshot'
+lore: []
+id: 16
+craftingRequirements:
+- IRON_INGOT,0,1
+- SULPHUR,0,1
+- REDSTONE,0,1
+craftingReturnAmount: 4
+price: 10
+maxAmount: 8
+material: DIAMOND_AXE
+piercingSeverity: 0.5
+lastModifiedByQA: 1592157034358

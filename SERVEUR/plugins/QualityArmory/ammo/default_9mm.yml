@@ -1,0 +1,15 @@
+invalid: false
+name: 9mm
+displayname: '&f9mm'
+lore: []
+id: 15
+craftingRequirements:
+- IRON_INGOT,0,1
+- SULPHUR,0,1
+- REDSTONE,0,1
+craftingReturnAmount: 10
+price: 2
+maxAmount: 50
+material: DIAMOND_AXE
+piercingSeverity: 0.7
+lastModifiedByQA: 1592157034357

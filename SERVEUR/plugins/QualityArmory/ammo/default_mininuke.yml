@@ -1,0 +1,14 @@
+invalid: false
+name: mininuke
+displayname: MiniNuke
+lore: []
+id: 56
+craftingRequirements:
+- IRON_INGOT,0,10
+- TNT,0,16
+craftingReturnAmount: 1
+price: 3000
+maxAmount: 1
+material: DIAMOND_AXE
+piercingSeverity: 100.0
+lastModifiedByQA: 1592157034631

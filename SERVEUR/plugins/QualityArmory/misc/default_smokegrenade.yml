@@ -1,0 +1,20 @@
+invalid: false
+name: smokegrenade
+displayname: '&7Smoke Grenade'
+lore:
+- §8[LMB] to pull pin
+- §8[RMB] to throw
+- §8Smoke Grenades wait §7FIVE seconds§8 before exploding.
+- §4<!>Will Explode Even If Not Thrown<!>
+id: 40
+craftingRequirements:
+- IRON_INGOT,0,6
+- SULPHUR,0,10
+price: 100
+material: DIAMOND_AXE
+damage: 100
+durability: 1
+MiscType: SMOKE_GRENADES
+lastModifiedByQA: 1592157034377
+radius: 5
+weaponsounds: bulletmedium

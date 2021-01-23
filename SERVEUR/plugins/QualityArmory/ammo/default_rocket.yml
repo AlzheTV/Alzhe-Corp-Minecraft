@@ -1,0 +1,15 @@
+invalid: false
+name: rocket
+displayname: '&fRocket'
+lore: []
+id: 17
+craftingRequirements:
+- IRON_INGOT,0,4
+- SULPHUR,0,6
+- REDSTONE,0,1
+craftingReturnAmount: 1
+price: 100
+maxAmount: 1
+material: DIAMOND_AXE
+piercingSeverity: 1000.0
+lastModifiedByQA: 1592157034359

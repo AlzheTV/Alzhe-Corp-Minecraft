@@ -1,0 +1,76 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&3Jouer RP ou visiter ?'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'play'
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-actions:
+  - 'tell: &7*Vous devez faire un choix.*'
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+jouer:
+  MATERIAL: emerald
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: '&f&l➢ &b&lJOUER !'
+  LORE:
+    - ''
+    - '&7Jouer rôleplay inclue de respecter.'
+    - '&7quelques règles. Faites &b/rules&7 pour les connaitres.'
+  ENCHANTMENTS:
+    - durability, 1
+  ACTIONS:
+    - 'op: spawn'
+    - 'op: manuadd {player} Civil'
+    - 'tell: &4&lATTENTION ! &8➢ &cFAITES &b/GENRE&c POUR SÉLÉCTIONNER TON GENRE !'
+
+info:
+  MATERIAL: SIGN
+  POSITION-X: 5
+  POSITION-Y: 1
+  NAME: '&fATTENTION !'
+  LORE:
+    - ''
+    - '&fCe choix est définitif !'
+    - '&fAlors, choisissez bien.'
+  ENCHANTMENTS:
+    - durability, 1
+  KEEP-OPEN: true
+
+
+visiter:
+  MATERIAL: compass
+  POSITION-X: 7
+  POSITION-Y: 1
+  NAME: '&f&l➢ &b&lVISITER !'
+  LORE:
+    - ''
+    - '&7Visiter la map en mode spectateur.'
+  ENCHANTMENTS:
+    - durability, 1
+  ACTIONS:
+    - 'op: gamemode sp {player}'

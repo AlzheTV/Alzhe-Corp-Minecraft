@@ -1,0 +1,14 @@
+invalid: false
+name: medkitcamo
+displayname: '&5Medkit'
+lore: []
+id: 37
+craftingRequirements:
+- WOOL,0,6
+- GOLDEN_APPLE,0,1
+price: 300
+material: DIAMOND_AXE
+damage: 1
+durability: 1000
+MiscType: MEDKIT
+lastModifiedByQA: 1592157034375

@@ -1,0 +1,31 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Message Configuration:
+#     Messages are handled in lists to allow for advanced customization!
+#     Feel free to add color codes by using & in your messages!
+#     To split a message onto multiple lines use the \n delimiter!
+#     Lines starting with / will be run as a command!
+#     To add single apostrophes into a message use ''.
+#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+#     If you are unfamiliar with YAML use the in-game commands: /am help
+
+settings:
+  enabled: true
+  min-players: 1
+  log-to-console: false
+message-lists:
+  am:
+    enabled: true
+    interval: 300
+    expiry: -1
+    random: true
+    messages:
+    - '&cHRP &8&l➢ &7Pour écrire un message global (hors RP), veuillez mettre &c&l!&7
+      devant votre message.'
+    - '&cHRP &8&l➢ &7Utilisez &c/ac&7 si vous avez un quelconque problème.'
+    - '&cHRP &8&l➢ &7Faites &c/rules&7 pour avoir une liste rapide des règles.'
+    - '&cHRP &8&l➢ &7Faites &c/ec&7 pour ouvrir votre sac à dos.'
+    - '&cHRP &8&l➢ &7Faites &c/me&7 quand vous souhaitez faire une action roleplay.
+      &c/me mange un gateau.&7 donnera &7&o*<Pseudo> mange un gateau*&r&7.'
+    - '&cHRP &8&l➢ &7Pensez à &cenregistrer (/register) &7votre compte !'

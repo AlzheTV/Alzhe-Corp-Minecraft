@@ -1,0 +1,14 @@
+invalid: false
+name: fusion_cell
+displayname: Fusion Cell
+lore: []
+id: 53
+craftingRequirements:
+- IRON_INGOT,0,10
+- REDSTONE,0,4
+craftingReturnAmount: 30
+price: 60
+maxAmount: 30
+material: DIAMOND_AXE
+piercingSeverity: 0.2
+lastModifiedByQA: 1592157034629

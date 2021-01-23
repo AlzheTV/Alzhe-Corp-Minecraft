@@ -1,0 +1,15 @@
+invalid: false
+name: '762'
+displayname: '&f7.62x39mm'
+lore: []
+id: 79
+craftingRequirements:
+- IRON_INGOT,0,1
+- SULPHUR,0,1
+- REDSTONE,0,1
+craftingReturnAmount: 5
+price: 5
+maxAmount: 50
+material: DIAMOND_AXE
+piercingSeverity: 1.2
+lastModifiedByQA: 1592157034358

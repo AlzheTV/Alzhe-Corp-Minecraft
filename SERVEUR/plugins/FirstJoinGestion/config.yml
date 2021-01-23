@@ -1,0 +1,26 @@
+# This aura is a ParticleTrail that will be only active on the first join of a player.
+FirstJoinAuraEnable: true
+
+# the message will be send to the player on his first join.
+# You can use conventional minecraft chat color code in the message.
+# Variable %player% is the current player that is joining the server.
+FirstJoinMessageEnable: false
+FirstJoinMessage: '&aWelcome &l%player%&l&f&a ! We are happy to have a new player !'
+
+# the message will be send to all players in the server to advertise the new player.
+# You can use conventional minecraft chat color code in the message.
+# Variable %player% is the current player that is joining the server.
+BroadcastNewPlayerEnable: false
+BroadcastNewPlayeMessage: '&aSay Hello to the new player : &l%player%&l&f&a !'
+
+# This option will sent 2 firework at the moment that the player join the server for the first time.
+# The power give more power to the firework launch.
+FirstJoinFireWorkEnable: true
+FirstJoinFireWork:
+    Power: 1
+
+# Those command will be sent only at the first join of the player.
+# The Commands are sent by your server console.
+# Variable %player% is the current player who's leveling up.
+FirstJoinCommands:
+    - 'cc open play %player%'

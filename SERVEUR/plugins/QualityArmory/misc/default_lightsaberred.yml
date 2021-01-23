@@ -1,0 +1,16 @@
+invalid: false
+name: LightSaberRed
+displayname: §6(Red)LightSaber
+lore:
+- '&fMay The Force be with you'
+- '&fAlways'
+id: 71
+craftingRequirements:
+- IRON_INGOT,0,8
+- NETHER_STAR,0,1
+price: 10000
+material: DIAMOND_AXE
+damage: 9
+durability: 1000
+MiscType: MELEE
+lastModifiedByQA: 1592157034642

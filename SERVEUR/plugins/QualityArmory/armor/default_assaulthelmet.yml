@@ -1,0 +1,14 @@
+invalid: false
+name: assaulthelmet
+displayname: '&6Assault Helmet'
+lore: []
+id: 25
+craftingRequirements:
+- IRON_INGOT,0,5
+- OBSIDIAN,0,1
+price: 3000
+MiscType: HELMET
+minProtectionHeight: 1.5
+maxProtectionHeight: 2.0
+stopsHeadshots: true
+lastModifiedByQA: 1592157034667

@@ -1,0 +1,15 @@
+invalid: false
+name: '556'
+displayname: '&f5.56 NATO'
+lore: []
+id: 14
+craftingRequirements:
+- IRON_INGOT,0,1
+- SULPHUR,0,1
+- REDSTONE,0,1
+craftingReturnAmount: 5
+price: 4
+maxAmount: 50
+material: DIAMOND_AXE
+piercingSeverity: 1.0
+lastModifiedByQA: 1592157034357

@@ -1,0 +1,102 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&3&lTéléphone'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'menu'
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-actions:
+  - 'tell: &8&l» &7*Vous ouvrez votre téléphone.*'
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+skin:
+  MATERIAL: skull:3
+  POSITION-X: 1
+  POSITION-Y: 1
+  SKULL-OWNER: '{player}'
+  NAME: '&8&l» &7Votre &bskin'
+  LORE:
+    - ''
+    - '&7Pour changer votre skin, cliquez ici'
+    - '&7ou tapez &b/skin clear&7.'
+  ACTIONS:
+    - 'console: skin clear {player}'
+
+
+centre-ville:
+  MATERIAL: compass
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: '&8&l» &bCentre-ville'
+  LORE:
+    - ''
+    - '&7Se rendre au &bcentre-ville&7.'
+  ENCHANTMENTS:
+    - durability, 1
+  ACTIONS:
+    - 'spawn'
+
+cake:
+  MATERIAL: cake
+  POSITION-X: 5
+  POSITION-Y: 1
+  NAME: '&7The Cake is a Lie.'
+  LORE:
+    - ''
+    - '&7Ne soyez pas idiots !'
+  ENCHANTMENTS:
+    - durability, 1
+
+
+laboratoire:
+  MATERIAL: 347
+  POSITION-X: 7
+  POSITION-Y: 1
+  NAME: '&8&l» &bLaboratoire'
+  LORE:
+    - ''
+    - '&7Se rendre au &blaboratoire&7.'
+  ENCHANTMENTS:
+    - durability, 1
+  ACTIONS:
+    - 'warp laboratoire'
+  PERMISSION: 'menu.labo'
+
+
+infos:
+  MATERIAL: sign
+  POSITION-X: 9
+  POSITION-Y: 1
+  NAME: '&8&l» &bInformations'
+  LORE:
+    - ''
+    - '&7Principal architecte : &bbn_&7.'
+    - '&7Chef de projet - créateur : &bAlzhe&7.'
+    - '&7Aides externes : &bVrioto715&7, &bkikoikoilopoponi&7.'
+    - ''
+    - '&7Serveur : &bmc.alzhe.tv&7 (1.9.0 -> 1.9.4)'
+    - '&7Les versions supérieures ne sont pas supportées.'
+  KEEP-OPEN: true
